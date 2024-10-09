@@ -11,7 +11,7 @@ class Libro:
         self.numero_paginas = numero_paginas
 
 
-    def mostrar_informacion(self) -> int:
+    def mostrar_informacion(self) -> str:
         return f"INFORMACIÓN: \nTitulo: {self.titulo} \nAutor: {self.autor} \nAño de publicación: self.anio_publicacion \nNúmero de páginas: {self.numero_paginas}"
     
 libro = Libro("Blanca Olmedo", "Lucila Gamero de Medina", 1900, 400)
