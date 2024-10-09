@@ -7,6 +7,8 @@ def contar_vocales(frase):
 
     return cantidad_vocales
             
+            
 frase_seleccionada = str(input("Escriba una frase para contar sus vocales: "))
 cantidad_total = contar_vocales(frase_seleccionada)
+
 print(f"La cantidad total de vocales es: {cantidad_total}")
